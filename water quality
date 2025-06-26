@@ -1,0 +1,10 @@
+Water quality is critical for human health and environmental sustainability. This project uses machine learning techniques to predict whether water is potable (safe to drink) or not based on physicochemical properties.
+
+The objective of this project is to develop a machine learning model that can accurately predict whether a water sample is safe to drink (potable) or not. The model is trained on a dataset containing various features such as pH level, hardness, solids, chloramines, sulfate, and turbidity. These parameters are key indicators of water quality and influence the safety of water for human consumption.
+
+The project begins with data preprocessing, where missing values are handled and features are scaled for better model performance. Several classification algorithms such as Random Forest, Logistic Regression, and Support Vector Machines are then applied. The model’s accuracy is evaluated using metrics like accuracy score, precision, recall, and F1-score.
+
+Among the models tested, Random Forest often performs best due to its ability to handle non-linear relationships and noise in the data. The final model can be deployed as a web application using frameworks like Streamlit or Flask, allowing users to input water parameters and receive instant predictions.
+
+In conclusion, machine learning provides a promising alternative to traditional water testing methods. It can be used by governments, researchers, and environmental agencies to monitor and ensure water safety, ultimately contributing to better public health and environmental protection.
+
